@@ -11,7 +11,7 @@ from ckeditor.fields import RichTextField
 class Post(models.Model):
     titulo = models.CharField(max_length=50, default='Apple')
     contenido = RichTextField()
-    imagen = models.ImageField(upload_to="blog", null=True, blank=True)
+    imagen = models.ImageField(null=True, blank=True)
     autor = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
     #category = models.ForeignKey(Category, on_delete=models.PROTECT)
     created = models.DateTimeField(null=False, default=timezone.now)
