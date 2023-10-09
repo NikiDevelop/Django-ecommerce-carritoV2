@@ -1,1 +1,1 @@
-# Django-Ecommerce-azure
+# Django-Ecommerce-carrito-azure
