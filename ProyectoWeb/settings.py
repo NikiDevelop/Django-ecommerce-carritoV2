@@ -149,16 +149,21 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
-MEDIA_ROOT =os.path.join(BASE_DIR, 'media')
 
 STATICFILES_DIRS = [
 	BASE_DIR / 'static'
 	#os.path.join(BASE_DIR, 'static')
 ]
+
+MEDIA_ROOT =os.path.join(BASE_DIR, 'media/')
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+
+
 
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = "smtp.gmail.com"
