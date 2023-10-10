@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-nvd8#^ls^sm!#j^o2rix6jh6!i7!+7j_q9#)3h!9wc2k!ayf_d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['ecommerce-django.azurewebsites.net', '*'] 
+ALLOWED_HOSTS = ['ecommerce-django.azurewebsites.net',] 
 
 
 # Application definition
@@ -40,8 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-     'ckeditor',
-     'crispy_forms',
+    'ckeditor',
+    'crispy_forms',
 
     'ProyectoWebApp',
     'servicios',
