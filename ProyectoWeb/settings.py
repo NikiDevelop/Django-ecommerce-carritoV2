@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'ckeditor',
     'crispy_forms',
     'bootstrap4',
+    'crispy_bootstrap5',
 
     'ProyectoWebApp',
     'servicios',
