@@ -1,4 +1,4 @@
-# Django-Ecommerce-carrito-azure
+# Django-Ecommerce-carrito.v2
 ----------------------------------------------------------
 
 Lo primero creamos un entorno virtual.
