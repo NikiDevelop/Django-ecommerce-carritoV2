@@ -1,6 +1,8 @@
 # Django-Ecommerce-carrito.v2
 ----------------------------------------------------------
+Si quieres aprender como hacer el deploy de tu proyecto en Django te recomiendo que mires mi otro repositorio de Django-Ecommerce-azure Ahí explico al detalle como preparar los archivos static para hacer el deploy y te guio paso a paso para desplegar tu aplicación de Django en Azure.<br><br>
 
+##Ejecutar proyecto
 Lo primero creamos un entorno virtual.
 
 ```
